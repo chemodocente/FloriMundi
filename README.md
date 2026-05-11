@@ -49,13 +49,45 @@ año y el numero de version.
 
 FM_CLLIR_2025_034.PDF
 
-
-
-
-
 TIPO DE DOCUMENTO: PEDIDOS
 PEDFM_ES_01052026_009878_0534.PDF
 PED pedido + FM Florimundi + Sede + Fecha + nºCliente + nºpedido
 
 PEDFM_PB_05052026_15763_12.PDF
 
+
+
+FLUJO DE TRABAJO
+- Issue para pedir docuento o modificacion --> tecnico
+- Crea una Rama para el documento segun tipo --> nuevas-rosas
+- Edita el documento por parte del semillero
+- Abre un pull Request (peticion de aprobacion)
+- El verificador/responsable Aprueba y hace MERGE
+- Le colola la etiqueta de PUBLICADO y lo coloca en la carpeta DOCUMENTOS_PLUBLICOS o la WEB... (ejemplo)
+
+ Estado inicial del documento 
+ que actor tiene que hacer 
+ Que tiene que hacer (tarea, condiciones, plazo)
+ y cual seria el estado siguiente
+
+ Contrato 
+ ---Borrador Tecnico de RRHH -- Redactarlo -- EnRevision
+ En Reviosion -- Responsable RRHH - Revisar y validar --Aprobado
+ Aprobado -- CEO -- Firmar y sellar -- Publico
+
+Estados del Documento = CICLO DE VIDA DEL DOCUMENTO
+ BORRADOR
+ ENREVISION
+ APROBADO
+ PUBLICO
+ ARCHIVADO
+ ELIMINADO (No llegaria a ponerse)
+ 
+                    DIRECTOR      RESPONSABLEAREA      EDITOR        EXTERNO      
+ 
+PEDIDO                VER           VER/EDITAR          CREAR          No
+
+GUIA TECNICA          VER            VER             CREAR/EDITAR      VER
+
+CONTRATO LABORAL      EDITAR          VER                No              No
+                      (Aprobar)
